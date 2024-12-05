@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                 id="about-menu"
                 href="#about-area"
               >
-                About
+                Sobre mim
               </a>
             </li>
             <li className="nav-item">
