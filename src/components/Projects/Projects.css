@@ -1,0 +1,114 @@
+.main-title-projects {
+  color: #444;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#projects-area .project-card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+  padding-bottom: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+#projects-area .project-card:hover {
+  transform: scale(1.05);
+}
+
+.polaroid-img {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 0.1rem 0.5rem 1rem 0.5rem;
+  margin-bottom: 0.25rem;
+  border: 1px solid #ddd;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #ddd;
+  padding: 0.1rem;
+  width: 80%;
+  max-width: 580px;
+  position: relative;
+}
+
+.mac-card-header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+.mac-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.mac-btn.red {
+  background-color: #ff5f56;
+}
+
+.mac-btn.yellow {
+  background-color: #ffbd2e;
+}
+
+.mac-btn.green {
+  background-color: #27c93f;
+}
+
+.img-fluid {
+  border: 0.2rem solid #fff;
+  border-bottom: 0.5rem solid #fff;
+  margin: 0;
+}
+
+h3.title-card {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+p.description {
+  padding: 0;
+  margin: 0 0.2rem 1.25rem 0.2rem;
+  text-align: center;
+}
+
+.btn-git {
+  color: #000;
+  background-color: #ff5f56;
+  border-radius: 1px solid #ff5f56;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.btn-projects {
+  color: #000;
+  text-align: center;
+  background-color: #27c93f;
+  border-radius: 3px solid #27c93f;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: block;
+}
