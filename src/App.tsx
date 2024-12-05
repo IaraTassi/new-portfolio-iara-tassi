@@ -9,6 +9,7 @@ import AOS from "aos";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
 
 AOS.init({
   duration: 1000,
@@ -23,6 +24,7 @@ function App() {
       <Course />
       <Projects />
       <Skills />
+      <Contact />
     </div>
   );
 }
