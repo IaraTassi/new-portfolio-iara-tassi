@@ -16,7 +16,10 @@
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.6",
-    "react-dom": "^18.3.1"
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.3.1",
+    "react-parallax": "^3.5.1",
+    "react-progressbar": "^15.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./components/Navbar/Navbar.css";
 import "./components/About/About.css";
 import "./components/Course/Course.css";
+import "./components/Skills/Skills.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -1,0 +1,23 @@
+.main-title-skills {
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 7rem 0 7rem 0;
+}
+
+#skills-area {
+  background-color: #444;
+  color: #fff;
+  margin-bottom: 6rem;
+}
+
+.circle-container {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.text-white {
+  font-size: 1.4rem;
+  padding-top: 0.8rem;
+}
