@@ -17,6 +17,7 @@ const Contact: React.FC = () => {
                   href="https://www.linkedin.com/in/iara-tassi-b1879182/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn"
                 >
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>
@@ -30,6 +31,7 @@ const Contact: React.FC = () => {
                   href="https://github.com/IaraTassi"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="GitHub"
                 >
                   <i className="fab fa-github fa-2x"></i>
                 </a>
@@ -43,6 +45,7 @@ const Contact: React.FC = () => {
                   href="mailto:iaratassi@hotmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="E-mail"
                 >
                   <i className="fas fa-envelope fa-2x"></i>
                 </a>

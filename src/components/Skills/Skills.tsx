@@ -3,17 +3,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { Parallax } from "react-parallax";
+import patternImage from "../../assets/pattern.png";
 
 const Skills: React.FC = () => {
   const [animate, setAnimate] = useState(false);
   const skillsRef = useRef<HTMLDivElement | null>(null);
 
-  // Habilita a animação ao rolar para a seção
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setAnimate(true); // Ativa a animação
+          setAnimate(true);
         }
       },
       { threshold: 0.5 }
@@ -24,12 +24,9 @@ const Skills: React.FC = () => {
     }
 
     return () => {
-      if (skillsRef.current) {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        observer.unobserve(skillsRef.current);
-      }
+      observer.disconnect();
     };
-  }, []);
+  }, [skillsRef]);
 
   const skills = [
     { percentage: 98, text: "Comunicação" },
@@ -39,8 +36,8 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <div id="skills-area" ref={skillsRef}>
-      <Parallax bgImage="src/assets/pattern.png" strength={250}>
+    <div id="skills-area" ref={skillsRef} data-testid="skills-container">
+      <Parallax bgImage={patternImage} strength={250}>
         <div className="container py-5">
           <h3 className="main-title-skills">Soft Skills</h3>
           <div className="row justify-content-center">
@@ -48,8 +45,8 @@ const Skills: React.FC = () => {
               <div className="col-md-3 col-6 text-center mb-4" key={index}>
                 <div className="circle-container">
                   <CircularProgressbar
-                    value={animate ? skill.percentage : 0} // Só anima quando visível
-                    text={`${animate ? skill.percentage : 0}%`}
+                    value={animate ? skill.percentage : 0}
+                    text={`${animate ? skill.percentage : skill.percentage}%`}
                     styles={buildStyles({
                       textSize: "20px",
                       pathColor: "#3ec1d5",

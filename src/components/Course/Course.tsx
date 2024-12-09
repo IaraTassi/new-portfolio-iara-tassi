@@ -178,7 +178,7 @@ const Course: React.FC = () => {
               data-aos-delay="800"
             >
               <div className="card-body">
-                <i className="fab fa-react fa-3x"></i>
+                <i className="fa-brands fa-react fa-3x"></i>
                 <h4 className="card-title">React</h4>
                 <p className="card-text">
                   TypeScript, POO e Browser APIs, React I: Introdução e

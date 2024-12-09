@@ -15,7 +15,7 @@ const About: React.FC = () => {
             <img
               className="img-fluid rounded shadow"
               src="src/assets/image-iaraTassi.jpeg"
-              alt="Imagem"
+              alt="Imagem Iara Tassi"
             />
           </div>
 
