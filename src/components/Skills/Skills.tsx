@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { Parallax } from "react-parallax";
-import patternImage from "../../../public/assets/pattern.png";
+import patternImage from "../../assets/pattern.png";
 
 const Skills: React.FC = () => {
   const [animate, setAnimate] = useState(false);
