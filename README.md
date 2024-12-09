@@ -1,50 +1,90 @@
-# React + TypeScript + Vite
+# 🌟 Meu Portfólio de Futura Desenvolvedora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal, criado para mostrar minha trajetória como estudante de tecnologia. Aqui você encontrará informações sobre mim, os cursos que realizei, meus projetos e minhas **soft skills**.
 
-Currently, two official plugins are available:
+## 📷 Demonstração do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfólio Iara Tassi](./src/assets/portfolio-iaraTassi.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📌 Tecnologias utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Bootstrap 5
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📌 Seções do portfólio
+
+- **Sobre mim**: Um resumo da minha jornada e motivação na área de tecnologia.
+- **Cursos**: Lista dos cursos que realizei, com foco em desenvolvimento web e outras áreas relacionadas.
+- **Projetos**: Exemplos práticos do que desenvolvi, incluindo projetos feitos durante cursos e de forma independente.
+- **Soft skills**: Competências interpessoais que complementam minhas habilidades técnicas.
+- **Contato**: Como entrar em contato comigo ou visualizar meu perfil em redes sociais.
+
+---
+
+## 🚀 Destaques
+
+### 🎓 Cursos
+
+Listei os cursos que completei para mostrar meu aprendizado contínuo. Alguns deles incluem:
+
+- Desenvolvimento Web Completo
+- Front-End com React e Bootstrap
+- Fundamentos de JavaScript, HTML e CSS
+- Java do básico ao nível médio
+- Angular e React
+- Testes de Software (QA)
+
+[Visualizar todos os cursos](#)
+
+---
+
+### 📂 Projetos
+
+#### 📝 Projetos feitos durante os cursos:
+
+- **Spiderman**: Projeto Spiderman Multiverso, desenvolvido durante uma live no Youtube em parceria com a DIO.
+- **Barbearia**: Um projeto simples para praticar HTML e CSS.
+- **Número Secreto**: Projeto Jogo do número Secreto, objetivo de praticar de Lógica de programação. Projeto desenvolvido pela Oracle Oracle - One Next Education.
+
+#### 🌟 Projetos independentes:
+
+- **Portfólio pessoal**: Este site, desenvolvido do zero, utilizando React e Bootstrap 5.
+- **Site Clínica Odontologica**: Projeto em desenvolvimento.
+
+---
+
+### ✨ Soft Skills
+
+- Comunicação eficaz
+- Colaboração
+- Adaptabilidade
+- Resiliência
+
+---
+
+## 🧪 Testes Automatizados
+
+Os testes do projeto garantem a funcionalidade correta e a integração dos componentes, cobrindo diferentes cenários, como animações, renderização e lógica baseada em visibilidade.
+
+### 🛠️ Como Executar os Testes
+
+1. **Execute os testes automatizados:**
+   ```bash
+   npm test
+   ```
+
+## 📧 Contato
+
+- **E-mail**: [iaratassi@hotmail.com](mailto:iaratassi@hotmail.com)
+- **LinkedIn**: [iara-tassi](https://www.linkedin.com/in/iara-tassi-b1879182/)
+- **GitHub**: [IaraTassi](https://github.com/IaraTassi)
+
+---
+
+> Feito com ❤️ por Iara .
+
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
