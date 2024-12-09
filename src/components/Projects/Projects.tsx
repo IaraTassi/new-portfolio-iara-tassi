@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Spiderman",
-    image: "../../public/assets/spiderman.png",
+    image: "../../../public/assets/spiderman.png",
     description:
       "Este é o repositório do projeto Spiderman Multiverso, desenvolvido durante uma live no Youtube em parceria com a DIO.Com este projeto aprendemos a trabalhar com os principais efeitos de CSS e a explorar o máximo das animações para construir um Layout rico baseado no universo do Spiderman.",
     githubLink: "https://github.com/IaraTassi/spiderman-multiverso",
