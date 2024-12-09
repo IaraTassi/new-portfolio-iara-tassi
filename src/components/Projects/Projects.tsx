@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Spiderman",
-    image: "src/assets/spiderman.png",
+    image: "assets/spiderman.png",
     description:
       "Este é o repositório do projeto Spiderman Multiverso, desenvolvido durante uma live no Youtube em parceria com a DIO.Com este projeto aprendemos a trabalhar com os principais efeitos de CSS e a explorar o máximo das animações para construir um Layout rico baseado no universo do Spiderman.",
     githubLink: "https://github.com/IaraTassi/spiderman-multiverso",
@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Barbearia",
-    image: "src/assets/barbearia.png",
+    image: "assets/barbearia.png",
     description:
       "Este é um projeto desenvolvido durante o curso da Alura, com algumas alterações pessoais para personalizá-lo e torná-lo único.",
     githubLink: "https://github.com/IaraTassi/projeto-barbearia",
@@ -32,7 +32,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Número Secreto",
-    image: "src/assets/numeroSecreto.png",
+    image: "assets/numeroSecreto.png",
     description:
       "Este é o repositório do projeto Jogo do número Secreto, foi feito durante o curso de Lógica de programação: explore funções e listas. Projeto desenvolvido pela Oracle Oracle - One Next Education.",
     githubLink: "https://github.com/IaraTassi/jogo-do-numero-secreto",
