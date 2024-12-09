@@ -4,7 +4,7 @@ Este é o meu portfólio pessoal, criado para mostrar minha trajetória como est
 
 ## 📷 Demonstração do Projeto
 
-![Portfólio Iara Tassi](./src/assets/portfolio-iaraTassi.png)
+![Portfólio Iara Tassi](public/assets/portfolio-iaraTassi.png)
 
 ---
 
