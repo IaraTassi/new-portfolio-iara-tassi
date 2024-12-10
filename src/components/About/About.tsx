@@ -14,7 +14,7 @@ const About: React.FC = () => {
           <div className="col-md-4">
             <img
               className="img-fluid rounded shadow"
-              src="../../public/assets/image-iaraTassi.jpeg"
+              src="../../../public/assets/image-iaraTassi.jpeg"
               alt="Imagem Iara Tassi"
             />
           </div>

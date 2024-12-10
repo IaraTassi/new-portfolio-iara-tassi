@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Barbearia",
-    image: "../../public/assets/barbearia.png",
+    image: "../../../public/assets/barbearia.png",
     description:
       "Este é um projeto desenvolvido durante o curso da Alura, com algumas alterações pessoais para personalizá-lo e torná-lo único.",
     githubLink: "https://github.com/IaraTassi/projeto-barbearia",
@@ -32,7 +32,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Número Secreto",
-    image: "../../public/assets/numeroSecreto.png",
+    image: "../../../public/assets/numeroSecreto.png",
     description:
       "Este é o repositório do projeto Jogo do número Secreto, foi feito durante o curso de Lógica de programação: explore funções e listas. Projeto desenvolvido pela Oracle Oracle - One Next Education.",
     githubLink: "https://github.com/IaraTassi/jogo-do-numero-secreto",
