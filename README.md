@@ -15,10 +15,14 @@ Você pode visualizar meu portfólio online no seguinte link:
 
 ---
 
-## 📌 Tecnologias utilizadas
+## 🛠 Ferramentas utilizadas
 
+- Vite
 - React
+- TypeScript
 - Bootstrap 5
+- Vitest
+- React Testing Library
 
 ## 📌 Seções do portfólio
 
@@ -75,7 +79,7 @@ Listei os cursos que completei para mostrar meu aprendizado contínuo. Alguns de
 
 Os testes do projeto garantem a funcionalidade correta e a integração dos componentes, cobrindo diferentes cenários, como animações, renderização e lógica baseada em visibilidade.
 
-### 🛠️ Como Executar os Testes
+### ✔ Como Executar os Testes
 
 1. **Execute os testes automatizados:**
    ```bash
