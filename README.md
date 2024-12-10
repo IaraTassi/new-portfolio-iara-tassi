@@ -11,7 +11,7 @@ Você pode visualizar meu portfólio online no seguinte link:
 
 ## 📷 Demonstração do Projeto
 
-![Portfólio Iara Tassi](public/assets/portfolio-iaraTassi.png)
+![Portfólio Iara Tassi](src/assets/portfolio-iaraTassi.png)
 
 ---
 
