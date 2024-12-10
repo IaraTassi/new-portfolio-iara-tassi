@@ -2,6 +2,13 @@
 
 Este é o meu portfólio pessoal, criado para mostrar minha trajetória como estudante de tecnologia. Aqui você encontrará informações sobre mim, os cursos que realizei, meus projetos e minhas **soft skills**.
 
+## 🌐 Acesse meu portfólio completo
+Você pode visualizar meu portfólio online no seguinte link:
+
+[🔗 Acesse Meu Site](https://new-portfolio-iara-tassi.vercel.app/)
+
+--- 
+
 ## 📷 Demonstração do Projeto
 
 ![Portfólio Iara Tassi](public/assets/portfolio-iaraTassi.png)
