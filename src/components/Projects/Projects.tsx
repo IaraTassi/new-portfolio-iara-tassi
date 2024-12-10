@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Projects.css";
+import spidermanImg from "../../assets/spiderman.png";
+import barbeariaImg from "../../assets/barbearia.png";
+import numeroSecretoImg from "../../assets/numeroSecreto.png";
 
 interface Project {
   id: number;
@@ -14,7 +17,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Spiderman",
-    image: "../../../public/assets/spiderman.png",
+    image: spidermanImg,
     description:
       "Este é o repositório do projeto Spiderman Multiverso, desenvolvido durante uma live no Youtube em parceria com a DIO.Com este projeto aprendemos a trabalhar com os principais efeitos de CSS e a explorar o máximo das animações para construir um Layout rico baseado no universo do Spiderman.",
     githubLink: "https://github.com/IaraTassi/spiderman-multiverso",
@@ -23,7 +26,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Barbearia",
-    image: "../../../public/assets/barbearia.png",
+    image: barbeariaImg,
     description:
       "Este é um projeto desenvolvido durante o curso da Alura, com algumas alterações pessoais para personalizá-lo e torná-lo único.",
     githubLink: "https://github.com/IaraTassi/projeto-barbearia",
@@ -32,7 +35,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Número Secreto",
-    image: "../../../public/assets/numeroSecreto.png",
+    image: numeroSecretoImg,
     description:
       "Este é o repositório do projeto Jogo do número Secreto, foi feito durante o curso de Lógica de programação: explore funções e listas. Projeto desenvolvido pela Oracle Oracle - One Next Education.",
     githubLink: "https://github.com/IaraTassi/jogo-do-numero-secreto",
@@ -41,7 +44,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: "em breve...",
-    image: "src/assets/placeholder.png",
+    image: "https://placeholder.png",
     description: "Informações em breve...",
     githubLink: "",
     projectLink: "",
@@ -49,7 +52,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: "em breve...",
-    image: "src/assets/placeholder.png",
+    image: "https://placeholder.png",
     description: "Informações em breve...",
     githubLink: "",
     projectLink: "",
@@ -57,7 +60,7 @@ const projects: Project[] = [
   {
     id: 6,
     title: "em breve...",
-    image: "src/assets/placeholder.png",
+    image: "https://placeholder.png",
     description: "Informações em breve...",
     githubLink: "",
     projectLink: "",

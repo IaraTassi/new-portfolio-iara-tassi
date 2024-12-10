@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImage from "../../assets/image-iaraTassi.jpeg";
 
 const About: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const About: React.FC = () => {
           <div className="col-md-4">
             <img
               className="img-fluid rounded shadow"
-              src="../../../public/assets/image-iaraTassi.jpeg"
+              src={aboutImage}
               alt="Imagem Iara Tassi"
             />
           </div>
