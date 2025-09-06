@@ -3,6 +3,7 @@ import "./Projects.css";
 import spidermanImg from "../../assets/spiderman.png";
 import barbeariaImg from "../../assets/barbearia.png";
 import numeroSecretoImg from "../../assets/numeroSecreto.png";
+import growflixImg from "../../assets/growflix.png";
 
 interface Project {
   id: number;
@@ -43,11 +44,12 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "em breve...",
-    image: "https://placeholder.png",
-    description: "Informações em breve...",
-    githubLink: "",
-    projectLink: "",
+    title: "Growflix",
+    image: growflixImg,
+    description:
+      "Site de streaming chamado Growflix, inspirado no layout da Netflix, com conteúdos em vídeo exclusivos da Growdev",
+    githubLink: "https://github.com/IaraTassi/growflix",
+    projectLink: "https://iaratassi.github.io/growflix/",
   },
   {
     id: 5,
