@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "target": "ES6",
     "module": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
-    "jsx": "react-jsx" // Para suportar JSX com React 17+
+    "jsx": "react-jsx"
   },
   "include": [
     "src/**/*.tsx",

@@ -4,6 +4,7 @@ import spidermanImg from "../../assets/spiderman.png";
 import barbeariaImg from "../../assets/barbearia.png";
 import numeroSecretoImg from "../../assets/numeroSecreto.png";
 import growflixImg from "../../assets/growflix.png";
+import growtwitterImg from "../../assets/growtwitter.png";
 
 interface Project {
   id: number;
@@ -17,6 +18,15 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Growtwitter",
+    image: growtwitterImg,
+    description:
+      "GrowTwitter – Full Stack Social Network Aplicação full stack inspirada no Twitter/X, desenvolvida na formação de Desenvolvimento Web Full Stack da Growdev. O backend expõe uma API REST com autenticação JWT e gerenciamento de usuários. O frontend, feito em React, consome a API e implementa login, persistência de sessão e interface responsiva baseada em componentes.",
+    githubLink: "https://github.com/IaraTassi/growtwitter",
+    projectLink: "https://growtwitter-zeta.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Spiderman",
     image: spidermanImg,
     description:
@@ -24,15 +34,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/IaraTassi/spiderman-multiverso",
     projectLink: "https://spiderman-multiverso-five.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Barbearia",
-    image: barbeariaImg,
-    description:
-      "Este é um projeto desenvolvido durante o curso da Alura, com algumas alterações pessoais para personalizá-lo e torná-lo único.",
-    githubLink: "https://github.com/IaraTassi/projeto-barbearia",
-    projectLink: "https://projeto-barbearia-neon.vercel.app/",
-  },
+
   {
     id: 3,
     title: "Número Secreto",
@@ -53,11 +55,12 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "em breve...",
-    image: "https://placeholder.png",
-    description: "Informações em breve...",
-    githubLink: "",
-    projectLink: "",
+    title: "Barbearia",
+    image: barbeariaImg,
+    description:
+      "Este é um projeto desenvolvido durante o curso da Alura, com algumas alterações pessoais para personalizá-lo e torná-lo único.",
+    githubLink: "https://github.com/IaraTassi/projeto-barbearia",
+    projectLink: "https://projeto-barbearia-neon.vercel.app/",
   },
   {
     id: 6,
